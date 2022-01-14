@@ -137,12 +137,9 @@ char line[20],label[8],opcode[8],operand[8],programname[10];
     }
             
 //==================================================
-  int main()
-                    {
-                    
-                   
-                        PASS1();
-                        length=locctr-startaddr;
-						printf("\n the length of program is %d",length);                                           
-                        getch();
-                    }   
+  int main(){
+  		PASS1();
+        length=locctr-startaddr;
+		printf("\n the length of program is %d",length);                                           
+        getch();
+    } 
